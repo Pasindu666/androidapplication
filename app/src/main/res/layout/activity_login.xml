@@ -68,6 +68,17 @@
                 app:cornerRadius = "20dp"/>
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/forgot_password"
+                android:text="Forgot Password?"
+                android:textColor="@color/lavender"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/Signup_text"
@@ -77,6 +88,8 @@
                 android:layout_marginTop="10dp"
                 android:textColor="@color/lavender"
                 android:textSize="18sp"/>
+
+
             
 
         </LinearLayout>
