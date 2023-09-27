@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         addItemCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Add.class);
+                Intent intent = new Intent(MainActivity.this, Upload_Activity.class);
                 startActivity(intent);
             }
         });
