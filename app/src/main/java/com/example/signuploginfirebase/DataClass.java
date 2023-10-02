@@ -28,4 +28,9 @@ public class DataClass {
     public String getDataImage() {
         return dataImage;
     }
+
+    public DataClass(){
+
+    }
+
 }

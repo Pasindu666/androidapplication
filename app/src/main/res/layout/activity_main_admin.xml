@@ -66,6 +66,35 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/viewItems"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lavender"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/viewItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:drawableBottom="@drawable/view_items"
+                        android:text="View Items"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
 
         <LinearLayout
