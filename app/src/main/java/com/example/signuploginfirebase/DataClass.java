@@ -6,6 +6,15 @@ public class DataClass {
     private String dataDesc;
     private String dataPrice;
     private String dataImage;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public DataClass(String dataTitle, String dataDesc, String dataPrice, String dataImage) {
         this.dataTitle = dataTitle;
